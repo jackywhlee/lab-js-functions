@@ -1,22 +1,42 @@
 // Question 1
-function maxOfTwoNumbers() {
-
+function maxOfTwoNumbers(a,b) {
+	if (a < b) {
+		return y;		
+	} else if (b > a) {
+		return b;
+	}
 }
 
 // Question 2
-function maxOfThree() {
-
+function maxOfThree(a, b, c) {
+	if (a > b && a > c) {
+		return a;
+	} if (b > a && b > c) {
+		return b; 
+	} if (c > a && c > b) {
+		return c;
+	}
 }
 
 // Question 3
-function isCharacterAVowel() {
-
+function isVowel(a) {
+	var vowels = ['a','e','i','o','u','y'];
+	if (vowels.indexOf(a) !== -1) {
+		return true;
+	}
+	return false
 }
 
 // Question 4
-function sumArray() {
- 
+function sumArray(array) {
+	var addition = 0;
+	for (var i = 0; i < array.length; i++) {
+		addition += array[i];
+	}
+ 	return addition;
 }
+array = [1,2,3,4]
+sumArray(array)
 
 
 // Question 4
